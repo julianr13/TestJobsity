@@ -11,12 +11,14 @@
     <form id="form1" runat="server">
     <div>
     
-        <asp:TextBox ID="txtUser" runat="server" placeholder="User"></asp:TextBox>  <br />
-        <asp:TextBox ID="txtPass" runat="server" placeholder="Password"></asp:TextBox>
+        <asp:TextBox ID="txtUser" required runat="server" placeholder="User"></asp:TextBox>  <br />
+        <asp:TextBox ID="txtPass" required runat="server" placeholder="Password" TextMode="Password"></asp:TextBox>
        <br />  <br />
-        <asp:Button id="btnLogin" runat="server" Text="Login"/>
+        <asp:Button id="btnLogin" runat="server" Text="Login" OnClick="btnLogin_Click"/>
           <br />
-        <asp:Button id="btnRegister" runat="server" Text="Register"/>
+        <asp:Button id="btnRegister" runat="server" Text="Register" OnClick="btnRegister_Click"/>
+         <br />
+        <asp:Label ID="lblRes" runat="server" ForeColor ="Red" ></asp:Label>
     </div>
     </form>
 </body>

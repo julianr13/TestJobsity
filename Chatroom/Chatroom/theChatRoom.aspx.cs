@@ -11,7 +11,21 @@ namespace Chatroom
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if  (Session["userLog"] == null)
+            {
+                Response.Redirect("Login.aspx");
+            }
+            else{
+                if (Session["userLog"].ToString().Length > 0)
+                {
+                    displayname1.Text = Session["userLog"].ToString();
+                }
+                else
+                {
+                    Response.Redirect("Login.aspx");
+                }
+            }
+           
         }
     }
 }
