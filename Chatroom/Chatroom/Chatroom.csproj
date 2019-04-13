@@ -118,6 +118,8 @@
   <ItemGroup>
     <Content Include="bin\GenericParsing.dll" />
     <Content Include="bin\GenericParsing.xml" />
+    <Content Include="bin\System.Data.SQLite.dll" />
+    <Content Include="bin\System.Data.SQLite.xml" />
     <Content Include="Global.asax" />
     <Content Include="Login.aspx" />
     <Content Include="WSBot.asmx" />
