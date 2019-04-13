@@ -26,6 +26,10 @@ namespace Chatroom
             {
                 messg = "The quote for " + stock_code + " is not defined.";
             }
+            else if (high == "Ticker missing")
+            {
+                messg = high + ", please provide a stock_code";
+            }
             else
             {
                
@@ -38,7 +42,7 @@ namespace Chatroom
 
             //get the csv from url
             String resCSV = getFilefromUrl(url);
-            if (resCSV.Contains("Error:"))
+            if (resCSV.Contains("Error:") || resCSV.Contains("Ticker missing"))
             {
                 return resCSV;
             }

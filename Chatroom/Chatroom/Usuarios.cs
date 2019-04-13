@@ -50,7 +50,7 @@ namespace Chatroom
                     return user;
                 }else
                 {
-                    return "No se pudo realiar el registro del usuario.";
+                    return "No se pudo realizar el registro del usuario.";
                 }
                
             }
