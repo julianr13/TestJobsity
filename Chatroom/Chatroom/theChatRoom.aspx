@@ -15,15 +15,16 @@
 <body>
     <form id="form1" runat="server" >
      <div class="container">
+         
          Bienvenido/a <asp:Label ID="displayname1" runat="server" />, recuerda que puedes enviar el comando <b>/stock=stock_code</b> para consultar cuota.
          <br />
        
         <input type="text" id="message" />
         <input type="button"  id="sendmessage" value="Send" />
-        
-        
-        <ul id="discussion">
+         <ul id="chat" style="height:600px;overflow:auto;">
         </ul>
+        
+       
     </div>
         <!--Add script to update the page and send messages.--> 
     <script type="text/javascript">
@@ -39,8 +40,14 @@
                 var dt = new Date();
                 var time = dt.getDay() +"-"+dt.getMonth() + "-" + dt.getFullYear() + " "+ dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds();
                 
-                $('#discussion').append('<li>' +time + ' <strong>' + encodedName
+                $('#chat').append('<li>' +time + ' <strong>' + encodedName
                     + '</strong>:&nbsp;&nbsp;' + encodedMsg + '</li>');
+                //alert(document.getElementById("chat").getElementsByTagName("li").length);
+                if (document.getElementById("chat").getElementsByTagName("li").length >50) {
+                    //delete first row
+                    $('#chat li').first().remove();
+                }
+                $("#chat").stop().animate({ scrollTop: $("#chat")[0].scrollHeight }, 1000);
             };
             // Get the user name and store it to prepend to messages.
            
