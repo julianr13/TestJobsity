@@ -225,6 +225,7 @@
 	<table name="AppSearch">
 		<col key="yes" def="s72">Property</col>
 		<col key="yes" def="s72">Signature_</col>
+		<row><td>IISROOTFOLDER</td><td>_IISROOTFOLDER</td></row>
 	</table>
 
 	<table name="BBControl">
@@ -339,10 +340,38 @@
 		<col def="S0">ISDotNetInstallerArgsCommit</col>
 		<col def="S0">ISDotNetInstallerArgsUninstall</col>
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
-		<row><td>Chatroom.Archivos_de_contenido</td><td>{A863E6B3-2D7B-432E-8565-0A911722C3DD}</td><td>INSTALLDIR</td><td>2</td><td/><td>chatroom.archivos_de_conteni</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Chatroom.Resultado_principal</td><td>{CA048D48-A4D0-4580-BA2B-C627AB1A1EFE}</td><td>INSTALLDIR</td><td>2</td><td/><td>chatroom.resultado_principal</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Chatroom.S_mbolos_de_depuraci_n</td><td>{3FEAEC07-7884-4753-A79B-E3852D3D0D94}</td><td>INSTALLDIR</td><td>2</td><td/><td>chatroom.s_mbolos_de_depurac</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Chatroom.Archivos_de_c_digo_fuente</td><td>{A0F887F2-476A-46BF-BC54-3C18F1B3EF5A}</td><td>INSTALLDIR</td><td>2</td><td/><td>chatroom.archivos_de_c_digo_</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Chatroom.Resultado_principal</td><td>{32CDD8FF-D77A-4944-A3A7-01F1F72F46EE}</td><td>INSTALLDIR</td><td>2</td><td/><td>chatroom.resultado_principal</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Chatroom.S_mbolos_de_depuraci_n</td><td>{6D4CFD5F-76FE-4B5A-AA1E-DBF6571CF84D}</td><td>INSTALLDIR</td><td>2</td><td/><td>chatroom.s_mbolos_de_depurac</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Chatroom.dll</td><td>{F5776FD4-49BE-46CB-AC46-88E9E9D15D54}</td><td>BIN</td><td>2</td><td/><td>chatroom.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>GenericParsing.dll</td><td>{E18FB8ED-D4A9-4A7B-BDAB-0C486BCAF70F}</td><td>BIN</td><td>2</td><td/><td>genericparsing.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td>{61520035-9AC6-4158-B74D-5C44023A4D0D}</td><td>DATABASEDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT1</td><td>{02102C57-2C94-4328-B84B-FB5C0F4C1E59}</td><td>INSTALLDIR</td><td>18</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT2</td><td>{1A92C95D-AC14-405B-B15A-B329D029761B}</td><td>BIN</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT3</td><td>{CFB4190E-AE36-400C-842A-7E6164A032A4}</td><td>ROSLYN</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT4</td><td>{5008CEBB-5482-48B1-B0D5-A83348F47AA4}</td><td>X64</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT5</td><td>{3740D071-F251-4A2F-B88A-BBB81D653343}</td><td>X86</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>ISX_DEFAULTCOMPONENT6</td><td>{DEB4261E-A751-43B4-871C-C0BC5CEE8BFF}</td><td>SCRIPTS</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Microsoft.AspNet.SignalR.Core.dll</td><td>{5DA13FBB-222D-4270-BFF1-B3803549F591}</td><td>BIN</td><td>2</td><td/><td>microsoft.aspnet.signalr.cor</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Microsoft.AspNet.SignalR.SystemWeb.dll</td><td>{46898A8A-7D07-4100-B856-9A2B59AE1910}</td><td>BIN</td><td>2</td><td/><td>microsoft.aspnet.signalr.sys</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Microsoft.Build.Tasks.CodeAnalysis.dll</td><td>{DCD61730-630B-46EE-A39F-00A3461140F5}</td><td>ROSLYN</td><td>2</td><td/><td>microsoft.build.tasks.codean</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Microsoft.CodeAnalysis.CSharp.dll</td><td>{CFF01CF3-71FA-45B2-9328-F07D9A334FCF}</td><td>ROSLYN</td><td>2</td><td/><td>microsoft.codeanalysis.cshar</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Microsoft.CodeAnalysis.VisualBasic.dll</td><td>{E6EFB06A-C634-4F85-8C31-7026CBDF9322}</td><td>ROSLYN</td><td>2</td><td/><td>microsoft.codeanalysis.visua</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Microsoft.CodeAnalysis.dll</td><td>{2DFFED1C-AE74-4F2D-935F-67496CCA72CC}</td><td>ROSLYN</td><td>2</td><td/><td>microsoft.codeanalysis.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</td><td>{4EE2F7EE-2925-4397-AC00-9F3BE5C95EF7}</td><td>BIN</td><td>2</td><td/><td>microsoft.codedom.providers.</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Microsoft.Owin.Host.SystemWeb.dll</td><td>{7E10EE8E-42CD-4177-A9FA-3FFC23BF7EE2}</td><td>BIN</td><td>2</td><td/><td>microsoft.owin.host.systemwe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Microsoft.Owin.Security.dll</td><td>{A4702DC5-06F4-46A2-9094-BD71303051A2}</td><td>BIN</td><td>2</td><td/><td>microsoft.owin.security.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Microsoft.Owin.dll</td><td>{041E8221-1F86-4047-9D84-40283B346A90}</td><td>BIN</td><td>2</td><td/><td>microsoft.owin.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Microsoft.Web.Infrastructure.dll</td><td>{C6676632-290A-4ED3-BF69-B5BB4F370412}</td><td>BIN</td><td>2</td><td/><td>microsoft.web.infrastructure</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Newtonsoft.Json.dll</td><td>{4F89C103-B673-4E4E-803E-2FC9081E22C4}</td><td>BIN</td><td>2</td><td/><td>newtonsoft.json.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>Owin.dll</td><td>{B63795A9-9A87-4C5C-8955-1B31234FBF73}</td><td>BIN</td><td>2</td><td/><td>owin.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>System.Collections.Immutable.dll</td><td>{CDAB5126-6340-4C59-A768-438CE864FC1F}</td><td>ROSLYN</td><td>2</td><td/><td>system.collections.immutable</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>System.Data.SQLite.dll</td><td>{87727DF7-E557-4F16-AB7B-096C63026575}</td><td>BIN</td><td>2</td><td/><td>system.data.sqlite.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>System.Reflection.Metadata.dll</td><td>{CC537B05-92DE-479C-BC2D-02B32B34A1E2}</td><td>ROSLYN</td><td>2</td><td/><td>system.reflection.metadata.d</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>VBCSCompiler.exe</td><td>{41D6680C-F2F7-4551-940D-6D141362190B}</td><td>ROSLYN</td><td>2</td><td/><td>vbcscompiler.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>WebsiteComponent</td><td>{22A95C40-EC20-43F9-8C1C-ED465D66E811}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>csc.exe</td><td>{F3EB56B9-0021-4D69-80A7-8C193FC0C9B3}</td><td>ROSLYN</td><td>2</td><td/><td>csc.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>vbc.exe</td><td>{34EFFB02-D225-4F0E-B0DC-D339BBEEE1C5}</td><td>ROSLYN</td><td>2</td><td/><td>vbc.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -1051,11 +1080,65 @@
 	<table name="CreateFolder">
 		<col key="yes" def="s72">Directory_</col>
 		<col key="yes" def="s72">Component_</col>
+		<row><td>BIN</td><td>Chatroom.dll</td></row>
+		<row><td>BIN</td><td>GenericParsing.dll</td></row>
+		<row><td>BIN</td><td>ISX_DEFAULTCOMPONENT2</td></row>
+		<row><td>BIN</td><td>Microsoft.AspNet.SignalR.Core.dll</td></row>
+		<row><td>BIN</td><td>Microsoft.AspNet.SignalR.SystemWeb.dll</td></row>
+		<row><td>BIN</td><td>Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</td></row>
+		<row><td>BIN</td><td>Microsoft.Owin.Host.SystemWeb.dll</td></row>
+		<row><td>BIN</td><td>Microsoft.Owin.Security.dll</td></row>
+		<row><td>BIN</td><td>Microsoft.Owin.dll</td></row>
+		<row><td>BIN</td><td>Microsoft.Web.Infrastructure.dll</td></row>
+		<row><td>BIN</td><td>Newtonsoft.Json.dll</td></row>
+		<row><td>BIN</td><td>Owin.dll</td></row>
+		<row><td>BIN</td><td>System.Data.SQLite.dll</td></row>
 		<row><td>DATABASEDIR</td><td>ISX_DEFAULTCOMPONENT</td></row>
-		<row><td>INSTALLDIR</td><td>Chatroom.Archivos_de_contenido</td></row>
+		<row><td>INSTALLDIR</td><td>Chatroom.Archivos_de_c_digo_fuente</td></row>
 		<row><td>INSTALLDIR</td><td>Chatroom.Resultado_principal</td></row>
 		<row><td>INSTALLDIR</td><td>Chatroom.S_mbolos_de_depuraci_n</td></row>
+		<row><td>INSTALLDIR</td><td>Chatroom.dll</td></row>
+		<row><td>INSTALLDIR</td><td>GenericParsing.dll</td></row>
 		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT1</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT2</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT3</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT4</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT5</td></row>
+		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT6</td></row>
+		<row><td>INSTALLDIR</td><td>Microsoft.AspNet.SignalR.Core.dll</td></row>
+		<row><td>INSTALLDIR</td><td>Microsoft.AspNet.SignalR.SystemWeb.dll</td></row>
+		<row><td>INSTALLDIR</td><td>Microsoft.Build.Tasks.CodeAnalysis.dll</td></row>
+		<row><td>INSTALLDIR</td><td>Microsoft.CodeAnalysis.CSharp.dll</td></row>
+		<row><td>INSTALLDIR</td><td>Microsoft.CodeAnalysis.VisualBasic.dll</td></row>
+		<row><td>INSTALLDIR</td><td>Microsoft.CodeAnalysis.dll</td></row>
+		<row><td>INSTALLDIR</td><td>Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</td></row>
+		<row><td>INSTALLDIR</td><td>Microsoft.Owin.Host.SystemWeb.dll</td></row>
+		<row><td>INSTALLDIR</td><td>Microsoft.Owin.Security.dll</td></row>
+		<row><td>INSTALLDIR</td><td>Microsoft.Owin.dll</td></row>
+		<row><td>INSTALLDIR</td><td>Microsoft.Web.Infrastructure.dll</td></row>
+		<row><td>INSTALLDIR</td><td>Newtonsoft.Json.dll</td></row>
+		<row><td>INSTALLDIR</td><td>Owin.dll</td></row>
+		<row><td>INSTALLDIR</td><td>System.Collections.Immutable.dll</td></row>
+		<row><td>INSTALLDIR</td><td>System.Data.SQLite.dll</td></row>
+		<row><td>INSTALLDIR</td><td>System.Reflection.Metadata.dll</td></row>
+		<row><td>INSTALLDIR</td><td>VBCSCompiler.exe</td></row>
+		<row><td>INSTALLDIR</td><td>WebsiteComponent</td></row>
+		<row><td>INSTALLDIR</td><td>csc.exe</td></row>
+		<row><td>INSTALLDIR</td><td>vbc.exe</td></row>
+		<row><td>ROSLYN</td><td>ISX_DEFAULTCOMPONENT3</td></row>
+		<row><td>ROSLYN</td><td>Microsoft.Build.Tasks.CodeAnalysis.dll</td></row>
+		<row><td>ROSLYN</td><td>Microsoft.CodeAnalysis.CSharp.dll</td></row>
+		<row><td>ROSLYN</td><td>Microsoft.CodeAnalysis.VisualBasic.dll</td></row>
+		<row><td>ROSLYN</td><td>Microsoft.CodeAnalysis.dll</td></row>
+		<row><td>ROSLYN</td><td>System.Collections.Immutable.dll</td></row>
+		<row><td>ROSLYN</td><td>System.Reflection.Metadata.dll</td></row>
+		<row><td>ROSLYN</td><td>VBCSCompiler.exe</td></row>
+		<row><td>ROSLYN</td><td>csc.exe</td></row>
+		<row><td>ROSLYN</td><td>vbc.exe</td></row>
+		<row><td>SCRIPTS</td><td>ISX_DEFAULTCOMPONENT6</td></row>
+		<row><td>X64</td><td>ISX_DEFAULTCOMPONENT4</td></row>
+		<row><td>X86</td><td>ISX_DEFAULTCOMPONENT5</td></row>
 	</table>
 
 	<table name="CustomAction">
@@ -1137,7 +1220,9 @@
 		<row><td>ALLUSERSPROFILE</td><td>TARGETDIR</td><td>.:ALLUSE~1|All Users</td><td/><td>0</td><td/></row>
 		<row><td>AdminToolsFolder</td><td>TARGETDIR</td><td>.:Admint~1|AdminTools</td><td/><td>0</td><td/></row>
 		<row><td>AppDataFolder</td><td>TARGETDIR</td><td>.:APPLIC~1|Application Data</td><td/><td>0</td><td/></row>
-		<row><td>CHATSETUP</td><td>JULIANROSALES</td><td>CHATSE~1|ChatSetup</td><td/><td>0</td><td/></row>
+		<row><td>BIN</td><td>INSTALLDIR</td><td>bin</td><td/><td>0</td><td/></row>
+		<row><td>CHATROOM</td><td>IISROOTFOLDER</td><td>ChatRoom</td><td/><td>0</td><td/></row>
+		<row><td>CHATSETUP</td><td>IISROOTFOLDER</td><td>CHATSE~1|ChatSetup</td><td/><td>0</td><td/></row>
 		<row><td>CommonAppDataFolder</td><td>TARGETDIR</td><td>.:Common~1|CommonAppData</td><td/><td>0</td><td/></row>
 		<row><td>CommonFiles64Folder</td><td>TARGETDIR</td><td>.:Common64</td><td/><td>0</td><td/></row>
 		<row><td>CommonFilesFolder</td><td>TARGETDIR</td><td>.:Common</td><td/><td>0</td><td/></row>
@@ -1146,7 +1231,8 @@
 		<row><td>FavoritesFolder</td><td>TARGETDIR</td><td>.:FAVORI~1|Favorites</td><td/><td>0</td><td/></row>
 		<row><td>FontsFolder</td><td>TARGETDIR</td><td>.:Fonts</td><td/><td>0</td><td/></row>
 		<row><td>GlobalAssemblyCache</td><td>TARGETDIR</td><td>.:Global~1|GlobalAssemblyCache</td><td/><td>0</td><td/></row>
-		<row><td>INSTALLDIR</td><td>CHATSETUP</td><td>.</td><td/><td>0</td><td/></row>
+		<row><td>IISROOTFOLDER</td><td>TARGETDIR</td><td>.:IISRoo~1|IISRootFolder</td><td/><td>0</td><td/></row>
+		<row><td>INSTALLDIR</td><td>CHATROOM</td><td>.</td><td/><td>0</td><td/></row>
 		<row><td>ISCommonFilesFolder</td><td>CommonFilesFolder</td><td>Instal~1|InstallShield</td><td/><td>0</td><td/></row>
 		<row><td>ISMyCompanyDir</td><td>ProgramFilesFolder</td><td>MYCOMP~1|My Company Name</td><td/><td>0</td><td/></row>
 		<row><td>ISMyProductDir</td><td>ISMyCompanyDir</td><td>MYPROD~1|My Product Name</td><td/><td>0</td><td/></row>
@@ -1163,7 +1249,9 @@
 		<row><td>ProgramFiles64Folder</td><td>TARGETDIR</td><td>.:Prog64~1|Program Files 64</td><td/><td>0</td><td/></row>
 		<row><td>ProgramFilesFolder</td><td>TARGETDIR</td><td>.:PROGRA~1|program files</td><td/><td>0</td><td/></row>
 		<row><td>ProgramMenuFolder</td><td>TARGETDIR</td><td>.:Programs</td><td/><td>3</td><td/></row>
+		<row><td>ROSLYN</td><td>BIN</td><td>roslyn</td><td/><td>0</td><td/></row>
 		<row><td>RecentFolder</td><td>TARGETDIR</td><td>.:Recent</td><td/><td>0</td><td/></row>
+		<row><td>SCRIPTS</td><td>INSTALLDIR</td><td>Scripts</td><td/><td>0</td><td/></row>
 		<row><td>SEGUROS_EQUINOCCIAL</td><td>ProgramFilesFolder</td><td>SEGURO~1|Seguros Equinoccial</td><td/><td>0</td><td/></row>
 		<row><td>SendToFolder</td><td>TARGETDIR</td><td>.:SendTo</td><td/><td>3</td><td/></row>
 		<row><td>StartMenuFolder</td><td>TARGETDIR</td><td>.:STARTM~1|Start Menu</td><td/><td>3</td><td/></row>
@@ -1177,6 +1265,10 @@
 		<row><td>USERPROFILE</td><td>TARGETDIR</td><td>.:USERPR~1|UserProfile</td><td/><td>0</td><td/></row>
 		<row><td>WindowsFolder</td><td>TARGETDIR</td><td>.:Windows</td><td/><td>0</td><td/></row>
 		<row><td>WindowsVolume</td><td>TARGETDIR</td><td>.:WinRoot</td><td/><td>0</td><td/></row>
+		<row><td>X64</td><td>BIN</td><td>x64</td><td/><td>0</td><td/></row>
+		<row><td>X86</td><td>BIN</td><td>x86</td><td/><td>0</td><td/></row>
+		<row><td>chatroom</td><td>julianrosales</td><td>ChatRoom</td><td/><td>1</td><td/></row>
+		<row><td>julianrosales</td><td>ProgramMenuFolder</td><td>JulianRosales</td><td/><td>1</td><td/></row>
 	</table>
 
 	<table name="DrLocator">
@@ -1868,10 +1960,38 @@
 	<table name="FeatureComponents">
 		<col key="yes" def="s38">Feature_</col>
 		<col key="yes" def="s72">Component_</col>
-		<row><td>AlwaysInstall</td><td>Chatroom.Archivos_de_contenido</td></row>
+		<row><td>AlwaysInstall</td><td>Chatroom.Archivos_de_c_digo_fuente</td></row>
 		<row><td>AlwaysInstall</td><td>Chatroom.Resultado_principal</td></row>
 		<row><td>AlwaysInstall</td><td>Chatroom.S_mbolos_de_depuraci_n</td></row>
+		<row><td>AlwaysInstall</td><td>Chatroom.dll</td></row>
+		<row><td>AlwaysInstall</td><td>GenericParsing.dll</td></row>
 		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT1</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT2</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT3</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT4</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT5</td></row>
+		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT6</td></row>
+		<row><td>AlwaysInstall</td><td>Microsoft.AspNet.SignalR.Core.dll</td></row>
+		<row><td>AlwaysInstall</td><td>Microsoft.AspNet.SignalR.SystemWeb.dll</td></row>
+		<row><td>AlwaysInstall</td><td>Microsoft.Build.Tasks.CodeAnalysis.dll</td></row>
+		<row><td>AlwaysInstall</td><td>Microsoft.CodeAnalysis.CSharp.dll</td></row>
+		<row><td>AlwaysInstall</td><td>Microsoft.CodeAnalysis.VisualBasic.dll</td></row>
+		<row><td>AlwaysInstall</td><td>Microsoft.CodeAnalysis.dll</td></row>
+		<row><td>AlwaysInstall</td><td>Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</td></row>
+		<row><td>AlwaysInstall</td><td>Microsoft.Owin.Host.SystemWeb.dll</td></row>
+		<row><td>AlwaysInstall</td><td>Microsoft.Owin.Security.dll</td></row>
+		<row><td>AlwaysInstall</td><td>Microsoft.Owin.dll</td></row>
+		<row><td>AlwaysInstall</td><td>Microsoft.Web.Infrastructure.dll</td></row>
+		<row><td>AlwaysInstall</td><td>Newtonsoft.Json.dll</td></row>
+		<row><td>AlwaysInstall</td><td>Owin.dll</td></row>
+		<row><td>AlwaysInstall</td><td>System.Collections.Immutable.dll</td></row>
+		<row><td>AlwaysInstall</td><td>System.Data.SQLite.dll</td></row>
+		<row><td>AlwaysInstall</td><td>System.Reflection.Metadata.dll</td></row>
+		<row><td>AlwaysInstall</td><td>VBCSCompiler.exe</td></row>
+		<row><td>AlwaysInstall</td><td>WebsiteComponent</td></row>
+		<row><td>AlwaysInstall</td><td>csc.exe</td></row>
+		<row><td>AlwaysInstall</td><td>vbc.exe</td></row>
 	</table>
 
 	<table name="File">
@@ -1886,10 +2006,53 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
-		<row><td>chatroom.archivos_de_conteni</td><td>Chatroom.Archivos_de_contenido</td><td>Chatroom.Archivos de contenido</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;Chatroom&gt;|ContentFiles</td><td>3</td><td/></row>
+		<row><td>chatroom.archivos_de_c_digo_</td><td>Chatroom.Archivos_de_c_digo_fuente</td><td>Chatroom.Archivos de código fuente</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;Chatroom&gt;|SourceFiles</td><td>3</td><td/></row>
+		<row><td>chatroom.dll</td><td>Chatroom.dll</td><td>Chatroom.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\Chatroom.dll</td><td>1</td><td/></row>
+		<row><td>chatroom.dll.config</td><td>ISX_DEFAULTCOMPONENT2</td><td>Chatroom.dll.config</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\Chatroom.dll.config</td><td>1</td><td/></row>
+		<row><td>chatroom.pdb</td><td>ISX_DEFAULTCOMPONENT2</td><td>Chatroom.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\Chatroom.pdb</td><td>1</td><td/></row>
 		<row><td>chatroom.resultado_principal</td><td>Chatroom.Resultado_principal</td><td>Chatroom.Resultado principal</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;Chatroom&gt;|Built</td><td>3</td><td/></row>
 		<row><td>chatroom.s_mbolos_de_depurac</td><td>Chatroom.S_mbolos_de_depuraci_n</td><td>Chatroom.Símbolos de depuración</td><td>0</td><td/><td/><td/><td>1</td><td>&lt;Chatroom&gt;|Symbols</td><td>3</td><td/></row>
 		<row><td>chatroomusers.db</td><td>ISX_DEFAULTCOMPONENT</td><td>chatRoomUsers.db</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\DataBase\chatRoomUsers.db</td><td>1</td><td/></row>
+		<row><td>csc.exe</td><td>csc.exe</td><td>csc.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\roslyn\csc.exe</td><td>1</td><td/></row>
+		<row><td>genericparsing.dll</td><td>GenericParsing.dll</td><td>GenericParsing.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\GenericParsing.dll</td><td>1</td><td/></row>
+		<row><td>jquery.signalr_2.4.1.js</td><td>ISX_DEFAULTCOMPONENT6</td><td>jquery.signalR-2.4.1.js</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\Scripts\jquery.signalR-2.4.1.js</td><td>1</td><td/></row>
+		<row><td>jquery.signalr_2.4.1.min.js</td><td>ISX_DEFAULTCOMPONENT6</td><td>jquery.signalR-2.4.1.min.js</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\Scripts\jquery.signalR-2.4.1.min.js</td><td>1</td><td/></row>
+		<row><td>jquery_1.6.4.js</td><td>ISX_DEFAULTCOMPONENT6</td><td>jquery-1.6.4.js</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\Scripts\jquery-1.6.4.js</td><td>1</td><td/></row>
+		<row><td>jquery_1.6.4.min.js</td><td>ISX_DEFAULTCOMPONENT6</td><td>jquery-1.6.4.min.js</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\Scripts\jquery-1.6.4.min.js</td><td>1</td><td/></row>
+		<row><td>jquery_1.6.4_vsdoc.js</td><td>ISX_DEFAULTCOMPONENT6</td><td>jquery-1.6.4-vsdoc.js</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\Scripts\jquery-1.6.4-vsdoc.js</td><td>1</td><td/></row>
+		<row><td>login.aspx</td><td>ISX_DEFAULTCOMPONENT1</td><td>Login.aspx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\Login.aspx</td><td>1</td><td/></row>
+		<row><td>microsoft.aspnet.signalr.cor</td><td>Microsoft.AspNet.SignalR.Core.dll</td><td>Microsoft.AspNet.SignalR.Core.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\Microsoft.AspNet.SignalR.Core.dll</td><td>1</td><td/></row>
+		<row><td>microsoft.aspnet.signalr.cor1</td><td>ISX_DEFAULTCOMPONENT2</td><td>Microsoft.AspNet.SignalR.Core.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\Microsoft.AspNet.SignalR.Core.pdb</td><td>1</td><td/></row>
+		<row><td>microsoft.aspnet.signalr.cor2</td><td>ISX_DEFAULTCOMPONENT2</td><td>Microsoft.AspNet.SignalR.Core.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\Microsoft.AspNet.SignalR.Core.xml</td><td>1</td><td/></row>
+		<row><td>microsoft.aspnet.signalr.sys</td><td>Microsoft.AspNet.SignalR.SystemWeb.dll</td><td>Microsoft.AspNet.SignalR.SystemWeb.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\Microsoft.AspNet.SignalR.SystemWeb.dll</td><td>1</td><td/></row>
+		<row><td>microsoft.aspnet.signalr.sys1</td><td>ISX_DEFAULTCOMPONENT2</td><td>Microsoft.AspNet.SignalR.SystemWeb.pdb</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb</td><td>1</td><td/></row>
+		<row><td>microsoft.aspnet.signalr.sys2</td><td>ISX_DEFAULTCOMPONENT2</td><td>Microsoft.AspNet.SignalR.SystemWeb.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\Microsoft.AspNet.SignalR.SystemWeb.xml</td><td>1</td><td/></row>
+		<row><td>microsoft.build.tasks.codean</td><td>Microsoft.Build.Tasks.CodeAnalysis.dll</td><td>Microsoft.Build.Tasks.CodeAnalysis.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll</td><td>1</td><td/></row>
+		<row><td>microsoft.codeanalysis.cshar</td><td>Microsoft.CodeAnalysis.CSharp.dll</td><td>Microsoft.CodeAnalysis.CSharp.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll</td><td>1</td><td/></row>
+		<row><td>microsoft.codeanalysis.dll</td><td>Microsoft.CodeAnalysis.dll</td><td>Microsoft.CodeAnalysis.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\roslyn\Microsoft.CodeAnalysis.dll</td><td>1</td><td/></row>
+		<row><td>microsoft.codeanalysis.visua</td><td>Microsoft.CodeAnalysis.VisualBasic.dll</td><td>Microsoft.CodeAnalysis.VisualBasic.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll</td><td>1</td><td/></row>
+		<row><td>microsoft.codedom.providers.</td><td>Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</td><td>Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</td><td>1</td><td/></row>
+		<row><td>microsoft.codedom.providers.1</td><td>ISX_DEFAULTCOMPONENT2</td><td>Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml</td><td>1</td><td/></row>
+		<row><td>microsoft.csharp.core.target</td><td>ISX_DEFAULTCOMPONENT3</td><td>Microsoft.CSharp.Core.targets</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\roslyn\Microsoft.CSharp.Core.targets</td><td>1</td><td/></row>
+		<row><td>microsoft.owin.dll</td><td>Microsoft.Owin.dll</td><td>Microsoft.Owin.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\Microsoft.Owin.dll</td><td>1</td><td/></row>
+		<row><td>microsoft.owin.host.systemwe</td><td>Microsoft.Owin.Host.SystemWeb.dll</td><td>Microsoft.Owin.Host.SystemWeb.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\Microsoft.Owin.Host.SystemWeb.dll</td><td>1</td><td/></row>
+		<row><td>microsoft.owin.host.systemwe1</td><td>ISX_DEFAULTCOMPONENT2</td><td>Microsoft.Owin.Host.SystemWeb.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\Microsoft.Owin.Host.SystemWeb.xml</td><td>1</td><td/></row>
+		<row><td>microsoft.owin.security.dll</td><td>Microsoft.Owin.Security.dll</td><td>Microsoft.Owin.Security.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\Microsoft.Owin.Security.dll</td><td>1</td><td/></row>
+		<row><td>microsoft.owin.security.xml</td><td>ISX_DEFAULTCOMPONENT2</td><td>Microsoft.Owin.Security.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\Microsoft.Owin.Security.xml</td><td>1</td><td/></row>
+		<row><td>microsoft.owin.xml</td><td>ISX_DEFAULTCOMPONENT2</td><td>Microsoft.Owin.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\Microsoft.Owin.xml</td><td>1</td><td/></row>
+		<row><td>microsoft.visualbasic.core.t</td><td>ISX_DEFAULTCOMPONENT3</td><td>Microsoft.VisualBasic.Core.targets</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\roslyn\Microsoft.VisualBasic.Core.targets</td><td>1</td><td/></row>
+		<row><td>microsoft.web.infrastructure</td><td>Microsoft.Web.Infrastructure.dll</td><td>Microsoft.Web.Infrastructure.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\Microsoft.Web.Infrastructure.dll</td><td>1</td><td/></row>
+		<row><td>newtonsoft.json.dll</td><td>Newtonsoft.Json.dll</td><td>Newtonsoft.Json.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\Newtonsoft.Json.dll</td><td>1</td><td/></row>
+		<row><td>newtonsoft.json.xml</td><td>ISX_DEFAULTCOMPONENT2</td><td>Newtonsoft.Json.xml</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\Newtonsoft.Json.xml</td><td>1</td><td/></row>
+		<row><td>owin.dll</td><td>Owin.dll</td><td>Owin.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\Owin.dll</td><td>1</td><td/></row>
+		<row><td>system.collections.immutable</td><td>System.Collections.Immutable.dll</td><td>System.Collections.Immutable.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\roslyn\System.Collections.Immutable.dll</td><td>1</td><td/></row>
+		<row><td>system.data.sqlite.dll</td><td>System.Data.SQLite.dll</td><td>System.Data.SQLite.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\System.Data.SQLite.dll</td><td>1</td><td/></row>
+		<row><td>system.reflection.metadata.d</td><td>System.Reflection.Metadata.dll</td><td>System.Reflection.Metadata.dll</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\roslyn\System.Reflection.Metadata.dll</td><td>1</td><td/></row>
+		<row><td>thechatroom.aspx</td><td>ISX_DEFAULTCOMPONENT1</td><td>theChatRoom.aspx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\theChatRoom.aspx</td><td>1</td><td/></row>
+		<row><td>vbc.exe</td><td>vbc.exe</td><td>vbc.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\roslyn\vbc.exe</td><td>1</td><td/></row>
+		<row><td>vbcscompiler.exe</td><td>VBCSCompiler.exe</td><td>VBCSCompiler.exe</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\roslyn\VBCSCompiler.exe</td><td>1</td><td/></row>
+		<row><td>vbcscompiler.exe.config</td><td>ISX_DEFAULTCOMPONENT3</td><td>VBCSCompiler.exe.config</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\bin\roslyn\VBCSCompiler.exe.config</td><td>1</td><td/></row>
+		<row><td>wsbot.asmx</td><td>ISX_DEFAULTCOMPONENT1</td><td>WSBot.asmx</td><td>0</td><td/><td/><td/><td>1</td><td>C:\Users\Julián Rosales\source\repos\TestJobsity\Chatroom\Chatroom\WSBot.asmx</td><td>1</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -2031,10 +2194,38 @@
 		<col def="S0">FTPLocation</col>
 		<col def="S0">HTTPLocation</col>
 		<col def="S0">Miscellaneous</col>
-		<row><td>Chatroom.Archivos_de_contenido</td><td/><td/><td>_72033B0B_E94C_4552_8B2F_008EB805C31B_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Chatroom.Resultado_principal</td><td/><td/><td>_22AF2AA5_4EB5_439F_9E10_202B83625137_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Chatroom.S_mbolos_de_depuraci_n</td><td/><td/><td>_4250FF80_7CA8_4626_A578_5BB37F68C6EC_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Chatroom.Archivos_de_c_digo_fuente</td><td/><td/><td>_CD605110_10AA_4DBD_B87F_B114D08BEDEF_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Chatroom.Resultado_principal</td><td/><td/><td>_95D6F8D7_576E_4849_8E05_BB717353E00F_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Chatroom.S_mbolos_de_depuraci_n</td><td/><td/><td>_2E54F886_5AAF_4FE0_843A_E8B866206B65_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Chatroom.dll</td><td/><td/><td>_97DD3BD8_EF62_45FF_A569_A761851FEBE7_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>GenericParsing.dll</td><td/><td/><td>_79E62649_D0DD_4DC3_87FB_E5F7A9E0AF16_FILTER</td><td/><td/><td/><td/></row>
 		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_01AB6052_B35A_4C06_89F6_59E4C9C09D52_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT1</td><td/><td/><td>_56C1771F_6131_4A7D_BD3B_5856FF4C8188_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT2</td><td/><td/><td>_9D942953_DD82_405B_B237_D9BE2018F467_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT3</td><td/><td/><td>_55ADE4DC_8BDC_4611_B03B_43312032CD83_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT4</td><td/><td/><td>_D7FF6166_7C4A_4940_998B_E3471EA4CD20_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT5</td><td/><td/><td>_3C902B61_6B52_4544_BCF8_61D99A6C7B37_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>ISX_DEFAULTCOMPONENT6</td><td/><td/><td>_1C2765FB_B086_4626_BA36_98104C26E075_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Microsoft.AspNet.SignalR.Core.dll</td><td/><td/><td>_13995C80_6A8A_4758_B0E1_3B8F3D3A07BC_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Microsoft.AspNet.SignalR.SystemWeb.dll</td><td/><td/><td>_651292CA_6092_43B3_AB97_E1290DA80F7E_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Microsoft.Build.Tasks.CodeAnalysis.dll</td><td/><td/><td>_3F96496F_D3C9_417A_AD23_58945D1C62F9_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Microsoft.CodeAnalysis.CSharp.dll</td><td/><td/><td>_56098F0F_94BF_40CD_A717_8FDB2CA6F67A_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Microsoft.CodeAnalysis.VisualBasic.dll</td><td/><td/><td>_F60A0A42_074B_4288_93F7_B2778F717E92_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Microsoft.CodeAnalysis.dll</td><td/><td/><td>_4D8A9CC3_DEEE_4690_8CB3_8BC20BD5037F_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</td><td/><td/><td>_645010F7_AC76_494D_BDC3_4CCC6F74A7CA_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Microsoft.Owin.Host.SystemWeb.dll</td><td/><td/><td>_596917C7_5928_42D0_A3BB_F61EE964DC1B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Microsoft.Owin.Security.dll</td><td/><td/><td>_F9369C8A_6BA4_44D8_AEAB_E9989A242B7F_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Microsoft.Owin.dll</td><td/><td/><td>_435A82EC_2234_45AE_892D_6A872F44ADFD_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Microsoft.Web.Infrastructure.dll</td><td/><td/><td>_3B7E07D8_3559_4159_B566_65F83D32AA26_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Newtonsoft.Json.dll</td><td/><td/><td>_5E902A5F_8E67_4CF8_BF4C_D9DC7CECAF4B_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>Owin.dll</td><td/><td/><td>_3E5CF3EC_8867_45F1_87F0_EFE04B57F463_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>System.Collections.Immutable.dll</td><td/><td/><td>_2B11071C_CD39_4549_9220_6970B6357268_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>System.Data.SQLite.dll</td><td/><td/><td>_3E0F31FA_CEFB_4C77_BF3A_E05756860DC7_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>System.Reflection.Metadata.dll</td><td/><td/><td>_CC8DBDD8_561E_4D03_8B6E_EECA84967665_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>VBCSCompiler.exe</td><td/><td/><td>_594CD354_DBC8_44C9_A539_E6AA53EBCF98_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>WebsiteComponent</td><td/><td/><td>_4F60E147_7A3A_4F6F_837B_C67757C485CF_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>csc.exe</td><td/><td/><td>_D4A8D024_5D32_452B_9AA6_A1A23CF07490_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>vbc.exe</td><td/><td/><td>_5F263CCC_21C3_4BDA_BEFB_D73CD8A2D616_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="ISCustomActionReference">
@@ -2624,7 +2815,7 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1033</td><td>JulianRosales</td><td>0</td><td/><td>1780965198</td></row>
+		<row><td>COMPANY_NAME</td><td>1033</td><td>JulianRosales</td><td>0</td><td/><td>1780961936</td></row>
 		<row><td>DN_AlwaysInstall</td><td>1033</td><td>Always Install</td><td>0</td><td/><td>1780999982</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1033</td><td>The color settings of your system are not adequate for running [ProductName].</td><td>0</td><td/><td>1780999982</td></row>
 		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_OS</td><td>1033</td><td>The operating system is not adequate for running [ProductName].</td><td>0</td><td/><td>1780999982</td></row>
@@ -3436,6 +3627,9 @@
 		<row><td>IDS_PROGMSG_XML_UPDATE_FILE</td><td>1033</td><td>Updating XML file %s...</td><td>0</td><td/><td>1780999982</td></row>
 		<row><td>IDS_SETUPEXE_EXPIRE_MSG</td><td>1033</td><td>This setup works until %s. The setup will now exit.</td><td>0</td><td/><td>1780999982</td></row>
 		<row><td>IDS_SETUPEXE_LAUNCH_COND_E</td><td>1033</td><td>This setup was built with an evaluation version of InstallShield and can only be launched from setup.exe.</td><td>0</td><td/><td>1780999982</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME1</td><td>1033</td><td>Launch csc.exe</td><td>0</td><td/><td>1780945584</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME2</td><td>1033</td><td>Launch vbc.exe</td><td>0</td><td/><td>1780945584</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME3</td><td>1033</td><td>Launch VBCSCompiler.exe</td><td>0</td><td/><td>1780945584</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO</td><td>1033</td><td>From the list of servers below, select the database server you would like to target.</td><td>0</td><td/><td>1780999982</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_DB</td><td>1033</td><td>From the list of catalog names below, select the database catalog you would like to target.</td><td>0</td><td/><td>1780999982</td></row>
 		<row><td>IDS_SQLBROWSE_INTRO_TEMPLATE</td><td>1033</td><td>[IS_SQLBROWSE_INTRO]</td><td>0</td><td/><td>1780999982</td></row>
@@ -3724,8 +3918,15 @@
 		<row><td>IDS__TargetReq_DESC_PROCESSOR</td><td>1033</td><td>The processor is not adequate for running [ProductName].</td><td>0</td><td/><td>1780999982</td></row>
 		<row><td>IDS__TargetReq_DESC_RAM</td><td>1033</td><td>The amount of RAM is not adequate for running [ProductName].</td><td>0</td><td/><td>1780999982</td></row>
 		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1033</td><td>The screen resolution is not adequate for running [ProductName].</td><td>0</td><td/><td>1780999982</td></row>
-		<row><td>ID_STRING1</td><td>1033</td><td>http://www.JulianRosales.com</td><td>0</td><td/><td>1780951375</td></row>
-		<row><td>ID_STRING2</td><td>1033</td><td>JulianRosales</td><td>0</td><td/><td>1780965198</td></row>
+		<row><td>ID_STRING1</td><td>1033</td><td>http://www.JulianRosales.com</td><td>0</td><td/><td>1780961936</td></row>
+		<row><td>ID_STRING2</td><td>1033</td><td>JulianRosales</td><td>0</td><td/><td>1780961936</td></row>
+		<row><td>ID_STRING3</td><td>1033</td><td>Default Web Site</td><td>0</td><td/><td>1780959055</td></row>
+		<row><td>ID_STRING4</td><td>1033</td><td/><td>0</td><td/><td>1780954895</td></row>
+		<row><td>ID_STRING5</td><td>1033</td><td>ChatRoom</td><td>0</td><td/><td>1780956655</td></row>
+		<row><td>ID_STRING6</td><td>1033</td><td>Login.aspx</td><td>0</td><td/><td>1780987375</td></row>
+		<row><td>ID_STRING7</td><td>1033</td><td>VirtualDir1</td><td>0</td><td/><td>1780973199</td></row>
+		<row><td>ID_STRING8</td><td>1033</td><td>Default Application1</td><td>0</td><td/><td>1780973199</td></row>
+		<row><td>ID_STRING9</td><td>1033</td><td>ChatRoom</td><td>0</td><td/><td>1780971920</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1033</td><td>This feature will remain uninstalled.</td><td>0</td><td/><td>1780999982</td></row>
 	</table>
 
@@ -3840,6 +4041,9 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I2">ISIconIndex</col>
 		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\setupicon.ico</td><td>0</td></row>
+		<row><td>VBCSCompiler.exe_303A201B5FA243D1979C898683F0439E.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
+		<row><td>csc.exe_2609D05E1DC0436EA6FF2727ED4EAB11.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
+		<row><td>vbc.exe_5061FFF492734A7DA0DD4C5E77D73D81.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\GenericExe.ico</td><td>0</td></row>
 	</table>
 
 	<table name="IniFile">
@@ -3958,7 +4162,7 @@
 UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 			</td></row>
 		<row><td>DefaultProductConfiguration</td><td>Express</td></row>
-		<row><td>EnableSwidtag</td><td>1</td></row>
+		<row><td>EnableSwidtag</td><td>0</td></row>
 		<row><td>ISCompilerOption_CompileBeforeBuild</td><td>1</td></row>
 		<row><td>ISCompilerOption_Debug</td><td>0</td></row>
 		<row><td>ISCompilerOption_IncludePath</td><td/></row>
@@ -3972,7 +4176,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{74A19865-249B-4B14-A223-A043B103CCBD}</td></row>
 		<row><td>ISUSSignature</td><td>{B6C61C99-20DA-4E47-95AA-AADA0BC796D4}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewISToday</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewISToday,viewUpgradePaths,viewUpdateService,viewProject,viewRelease,viewFileExtensions,viewVRoots,viewAppFiles,viewRegistry,viewIniFiles,viewObjects</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
@@ -4344,9 +4548,9 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PROGMSG_IIS_ROLLBACKAPPPOOLS</td><td>##IDS_PROGMSG_IIS_ROLLBACKAPPPOOLS##</td><td/></row>
 		<row><td>PROGMSG_IIS_ROLLBACKVROOTS</td><td>##IDS_PROGMSG_IIS_ROLLBACKVROOTS##</td><td/></row>
 		<row><td>PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS</td><td>##IDS_PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS##</td><td/></row>
-		<row><td>ProductCode</td><td>{B1A848D8-8476-4E7A-B061-2E60CDA1F344}</td><td/></row>
-		<row><td>ProductName</td><td>ChatSetup</td><td/></row>
-		<row><td>ProductVersion</td><td>1.00.0000</td><td/></row>
+		<row><td>ProductCode</td><td>{B7471823-62BB-4518-AEAE-4907D80EDFC8}</td><td/></row>
+		<row><td>ProductName</td><td>ChatRoom</td><td/></row>
+		<row><td>ProductVersion</td><td>1.00.0001</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
 		<row><td>ProgressType1</td><td>Installing</td><td/></row>
 		<row><td>ProgressType2</td><td>installed</td><td/></row>
@@ -4358,10 +4562,10 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>RestartManagerOption</td><td>CloseRestart</td><td/></row>
 		<row><td>SERIALNUMBER</td><td/><td/></row>
 		<row><td>SERIALNUMVALSUCCESSRETVAL</td><td>1</td><td/></row>
-		<row><td>SecureCustomProperties</td><td>ISFOUNDNEWERPRODUCTVERSION;USERNAME;COMPANYNAME;ISX_SERIALNUM;SUPPORTDIR</td><td/></row>
+		<row><td>SecureCustomProperties</td><td>ISFOUNDNEWERPRODUCTVERSION;USERNAME;COMPANYNAME;ISX_SERIALNUM;SUPPORTDIR;IISROOTFOLDER</td><td/></row>
 		<row><td>SelectedSetupType</td><td>##IDS__DisplayName_Typical##</td><td/></row>
 		<row><td>SetupType</td><td>Typical</td><td/></row>
-		<row><td>UpgradeCode</td><td>{88254D83-1EA9-47BA-A7DF-2537EE6DA3CA}</td><td/></row>
+		<row><td>UpgradeCode</td><td>{266A2493-01D1-47FA-90D4-2BF17AA98BC2}</td><td/></row>
 		<row><td>_IsMaintenance</td><td>Change</td><td/></row>
 		<row><td>_IsSetupTypeMin</td><td>Typical</td><td/></row>
 	</table>
@@ -4403,6 +4607,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="s255">Key</col>
 		<col def="S255">Name</col>
 		<col def="I2">Type</col>
+		<row><td>_IISROOTFOLDER</td><td>2</td><td>Software\Microsoft\InetStp</td><td>PathWWWRoot</td><td>0</td></row>
 	</table>
 
 	<table name="Registry">
@@ -4421,6 +4626,11 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="L255">FileName</col>
 		<col def="s72">DirProperty</col>
 		<col def="i2">InstallMode</col>
+		<row><td>FileKey1</td><td>csc.exe</td><td/><td>julianrosales</td><td>2</td></row>
+		<row><td>FileKey2</td><td>csc.exe</td><td/><td>chatroom</td><td>2</td></row>
+		<row><td>VBCSCompiler.exe</td><td>VBCSCompiler.exe</td><td/><td>chatroom</td><td>2</td></row>
+		<row><td>csc.exe</td><td>csc.exe</td><td/><td>chatroom</td><td>2</td></row>
+		<row><td>vbc.exe</td><td>vbc.exe</td><td/><td>chatroom</td><td>2</td></row>
 	</table>
 
 	<table name="RemoveIniFile">
@@ -4506,6 +4716,9 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
+		<row><td>VBCSCompiler.exe</td><td>chatroom</td><td>##IDS_SHORTCUT_DISPLAY_NAME3##</td><td>VBCSCompiler.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>VBCSCompiler.exe_303A201B5FA243D1979C898683F0439E.exe</td><td>0</td><td>1</td><td>ROSLYN</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>csc.exe</td><td>chatroom</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>csc.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>csc.exe_2609D05E1DC0436EA6FF2727ED4EAB11.exe</td><td>0</td><td>1</td><td>ROSLYN</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>vbc.exe</td><td>chatroom</td><td>##IDS_SHORTCUT_DISPLAY_NAME2##</td><td>vbc.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>vbc.exe_5061FFF492734A7DA0DD4C5E77D73D81.exe</td><td>0</td><td>1</td><td>ROSLYN</td><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">

@@ -8,9 +8,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestChat", "UnitTestChat\UnitTestChat.csproj", "{ACAD5F51-6A41-49C5-96F3-867E523076A8}"
 EndProject
 Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Setup1", "Setup1\Setup1.isproj", "{0E7A63CB-3508-4162-842C-729A4E6FB5C5}"
-	ProjectSection(ProjectDependencies) = postProject
-		{473120DC-E4F3-493B-B875-593A53D2AD88} = {473120DC-E4F3-493B-B875-593A53D2AD88}
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
