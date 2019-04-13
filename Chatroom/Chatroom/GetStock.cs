@@ -6,6 +6,7 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Web;
 
 namespace Chatroom
@@ -16,66 +17,94 @@ namespace Chatroom
         public string GetBotMessageStock(string stock_code)
         {
             string messg = "";
-            obtenerExcel("https://stooq.com/q/l/?s=aapl.us&f=sd2t2ohlcv&h&e=csv");
+           string high = obtenerExcel("https://stooq.com/q/l/?s="+ stock_code + "&f=sd2t2ohlcv&h&e=csv");
+            if (high.Contains("Error:"))
+            {
+                messg = high;
+            }
+            else if (high == "N/D")
+            {
+                messg = "The quote for " + stock_code + " is not defined.";
+            }
+            else
+            {
+               
+                messg = stock_code +" quote is $"+ high + " per share.";
+            }
             return messg;
         }
-        public DataTable obtenerExcel(string url)
+        public string  obtenerExcel(string url)
         {
 
-            //get the cvs from url
-            Stream resCSV = getFilefromUrl(url);
-            
-            DataTable archivoExcT = new DataTable("svc");
-            archivoExcT.Columns.Add("RequestId");
-            archivoExcT.Columns.Add("DeviceId");
-            archivoExcT.Columns.Add("CampaignId");
-            archivoExcT.Columns.Add("Score");
-            archivoExcT.Columns.Add("Email");
-            string strID, strName, strStatus;
-            using (GenericParser parser = new GenericParser())
+            //get the csv from url
+            String resCSV = getFilefromUrl(url);
+            if (resCSV.Contains("Error:"))
             {
-                //parser.SetDataSource()
-
-                //parser.ColumnDelimiter = ',';
-                //parser.FirstRowHasHeader = true;
-                //parser.SkipStartingDataRows = 0;
-                //parser.MaxBufferSize = 409600;
-                //parser.TextQualifier = '\"';
-
-                while (parser.Read())
-                {
-                    archivoExcT.Rows.Add(parser[0], parser[1], parser[2], parser[3], parser[4]);
- 
-                }
+                return resCSV;
             }
+            else
+            {
+                //parsing
+                string[] rowsCsv = Regex.Split(resCSV, "\r\n");
+                //header
+                DataTable archivoExcT = new DataTable("svc");
+                string[] headers = rowsCsv[0].Split(',');
+                for (int i = 0; i < headers.Length ; i++)
+                {
+                    archivoExcT.Columns.Add(headers[i]);
+                }
+                //rows
 
-            return archivoExcT;
-        }
-        public Stream  getFilefromUrl(string url)
-        {
+                for (int i = 1; i < rowsCsv.Length; i++)
+                {
+                    string[] row = rowsCsv[i].Split(',');
+                    DataRow rowDT = archivoExcT.NewRow();
+                    for (int j = 0; j < row.Length ; j++)
+                    {
+                        rowDT[j] = row[j];
+                       
+                    }
+                    archivoExcT.Rows.Add(rowDT);
+                }
+                return archivoExcT.Rows[0]["High"].ToString();
+            }
              
+
+           
+        }
+        public String  getFilefromUrl(string url)
+        {
+            try
+            {
                 WebRequest tRequest;
                 System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
                 tRequest = WebRequest.Create(url);
                 tRequest.Method = "post";
-                
+
                 Stream dataStream = tRequest.GetRequestStream();
-               
+
                 dataStream.Close();
 
                 WebResponse tResponse = tRequest.GetResponse();
 
                 dataStream = tResponse.GetResponseStream();
-               
-            StreamReader tReader = new StreamReader(dataStream);
 
-            String sResponseFromServer = tReader.ReadToEnd();
+                StreamReader tReader = new StreamReader(dataStream);
 
-            
-            tReader.Close();
-            dataStream.Close();
-            tResponse.Close();
-            return dataStream;
+                String sResponseFromServer = tReader.ReadToEnd();
+
+
+                tReader.Close();
+                dataStream.Close();
+                tResponse.Close();
+                return sResponseFromServer;
+            }
+            catch (Exception ex)
+            {
+
+                return "Error: " + ex.ToString();
+            }
+                
         }
     }
 }
